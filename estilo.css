@@ -1,9 +1,9 @@
 html{
-    font-family: 'Courier New', Courier, monospace;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 div{
-    border: 1px solid black;
+    margin: 15px;
 }
 table{
     align-items: center;
@@ -18,6 +18,6 @@ nav{
     font-weight: bolder;
 }
 
-body{
-    margin: auto;
+h6{
+    font-weight: bolder;
 }
