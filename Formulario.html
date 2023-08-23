@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <link rel="stylesheet" href="css/materialize.min.css"  media="screen,projection">
+    <link rel="stylesheet" href="css/materialize.css" media="screen,projection">
     <link rel="stylesheet" href="estilo.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,13 +17,100 @@
                 <li><a href="Linguagens.html">Linguagens</a></li>
                 <li><a href="Educacao.html">Educação</a></li>
                 <li><a href="Experiencias.html">Experiências</a></li>
+                <li><a href="Formulario.html">Formulário</a></li>
                 <li><a href="Materialize.html">Materialize</a></li>
             </ul>
         </div1>
-      </nav>
-
-      <a class="waves-effect waves-light btn-large">Button</a>
-
+    </nav>
+        <form>
+                <h1>Formulário</h1>
+                <label for="name">Nome</label>
+                <input id="name" type="text" class="validate">
+           
+            
+            
+            <br/>
+            
+            <label for="senha"> Senha </label>
+            <input id="senha" type="password" required size="10"/>
+            
+            <br/>
+            <br/>
+            Sexo:<br/>
+            <label>
+                <input type="radio" name="sexo" checked/>
+                <span>Masculino</span>
+            </label>
+            <label>
+                <input type="radio" name="sexo" checked/>
+                <span>Feminino</span>
+            </label>
+            <label>
+                <input type="radio" name="sexo" checked/>
+                <span>Outros</span>
+            </label>
+            <br/>
+            Marca de Carro:
+            
+            <p>
+                <label>
+                    <input name="group1" type="radio" />
+                    <span>VolksWagen</span>
+                </label>
+            </p>
+            <p>
+                <label>
+                    <input name="group1" type="radio" />
+                    <span>Ford</span>
+                </label>
+            </p>
+            <p>
+                <label>
+                    <input name="group1" type="radio"  />
+                    <span>Audi</span>
+                </label>
+            </p>
+            <p>
+                <label>
+                    <input name="group1" type="radio" />
+                    <span>Chevrolet</span>
+                </label>
+            </p>
+            
+            
+            <div id="number">
+                Número:
+                <input type="number"/>
+            </div>
+            
+            <br/>
+            <div id="data">
+                Data:
+                <input type="date"/>
+            </div>
+          
+          <br/>
+          
+          Email:
+          
+          <input type="email"/>
+          
+          <br/>
+          
+          Telefone:
+          
+          <input type="tel" />
+          
+          <br/>
+          
+        <button class="btn waves-effect waves-light" type="submit" name="action">Enviar
+        </button>
+        
+          
+          <br/>
+        </form>
+        
+        <script type="module" src="js/materialize.js"></script>
 
 </body>
 </html>
