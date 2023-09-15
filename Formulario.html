@@ -8,6 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
     <nav>
         <div1>
@@ -22,96 +23,78 @@
             </ul>
         </div1>
     </nav>
-        <form>
+    <form>
+        <div class="round">
+            <div class="margem">
                 <h1>Formulário</h1>
                 <label for="name">Nome</label>
                 <input id="name" type="text" class="validate">
-           
-            
-            
-            <br/>
-            
-            <label for="senha"> Senha </label>
-            <input id="senha" type="password" required size="10"/>
-            
-            <br/>
-            <br/>
-            <label for="sexo"> Sexo</label> <br/>
-            <label id="sexo">
-                <input type="radio" name="sexo" checked/>
+                <br />
+                <label for="senha"> Senha </label>
+                <input id="senha" type="password" required size="10" />
+                <br />
+                <br />
+                <label for="sexo"> Sexo</label> <br />
+                <label id="sexo">
+                <input type="radio" name="sexo" checked />
                 <span>Masculino</span>
-            </label>
-            <label>
-                <input type="radio" name="sexo" checked/>
+                </label>
+                <label>
+                <input type="radio" name="sexo" checked />
                 <span>Feminino</span>
-            </label>
-            <label>
-                <input type="radio" name="sexo" checked/>
+                </label>
+                <label>
+                <input type="radio" name="sexo" checked />
                 <span>Outros</span>
-            </label>
-
-            <br>
-            <br>
-            Marca de Carro:
-            <p>
-                <label>
-                    <input name="group1" type="radio" />
-                    <span>VolksWagen</span>
                 </label>
-            </p>
-            <p>
+                <br><br>
+                Marca de Carro:
+                <p>
                 <label>
-                    <input name="group1" type="radio" />
-                    <span>Ford</span>
+                <input name="group1" type="radio" />
+                <span>VolksWagen</span>
                 </label>
-            </p>
-            <p>
+                </p>
+                <p>
                 <label>
-                    <input name="group1" type="radio"  />
-                    <span>Audi</span>
+                <input name="group1" type="radio" />
+                <span>Ford</span>
                 </label>
-            </p>
-            <p>
+                </p>
+                <p>
                 <label>
-                    <input name="group1" type="radio" />
-                    <span>Chevrolet</span>
+                <input name="group1" type="radio" />
+                <span>Audi</span>
                 </label>
-            </p>
-            
-            
-            <div id="number">
-                <label for="number">Número</label>
-                <input type="number" id="number"/>
+                </p>
+                <p>
+                <label>
+                <input name="group1" type="radio" />
+                <span>Chevrolet</span>
+                </label>
+                </p>
+                <div id="number">
+                    <label for="number">Número</label>
+                    <input type="number" id="number" />
+                </div>
+                <br />
+                <div id="data">
+                    <label for="data">Data</label>
+                    <input type="date" id="data" />
+                </div>
+                <br />
+                <label for="email">Email</label>
+                <input type="email" id="email" />
+                <br />
+                <label for="telefone">Telefone</label>
+                <input type="tel" id="telefone" />
+                <br />
+                <button class="btn waves-effect waves-light" type="submit" name="action">Enviar
+                </button>
+                <br />
             </div>
-            
-            <br/>
-            <div id="data">
-                <label for="data">Data</label>
-                <input type="date" id="data"/>
-            </div>
-          
-          <br/>
-          
-          <label for="email">Email</label>
-          
-          <input type="email" id="email"/>
-          
-          <br/>
-          
-          <label for="telefone">Telefone</label>
-          
-          <input type="tel" id="telefone"/>
-          
-          <br/>
-          
-        <button class="btn waves-effect waves-light" type="submit" name="action">Enviar
-        </button>
-        
-          
-          <br/>
+        </div>
         </form>
-        
-        <script type="module" src="js/materialize.js"></script>
-
-</body>
-</html>
+            <script type="module" src="js/materialize.js"></script>
+            </body>
+    </html>
